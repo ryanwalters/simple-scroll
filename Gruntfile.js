@@ -4,9 +4,19 @@ module.exports = function (grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('bower.json'),
         concat: {
+            css: {
+                src: ['src/*.css'],
+                dest: 'dist/scroll.min.css'
+            },
             js: {
                 src: ['src/*.js'],
                 dest: 'dist/scroll.min.js'
+            }
+        },
+        cssmin: {
+            css: {
+                src: 'dist/scroll.min.css',
+                dest: 'dist/scroll.min.css'
             }
         },
         uglify: {
@@ -50,6 +60,7 @@ module.exports = function (grunt) {
         }
     });
 
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
