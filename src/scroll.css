@@ -5,6 +5,7 @@
 
 .ui-scrolling-div-wrapper.ui-mobile {
     overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 .ui-scrolling-div {
@@ -19,6 +20,10 @@
 
 .ui-scroll-controls {
     font-size: inherit;
+}
+
+.ui-mobile ~ .ui-scroll-controls {
+    display: none;
 }
 
 .ui-scroll-control {
