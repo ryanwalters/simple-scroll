@@ -1,0 +1,22 @@
+
+.container {
+    position: relative;
+}
+
+.rw-scroll {
+    margin: 0;
+    padding: 0;
+}
+
+.rw-scroll li {
+    float: left;
+    list-style: none;
+    margin-right: 40px;
+    width: 225px;
+}
+
+.ui-scroll-controls {
+    position: absolute;
+    top: 40px;
+    right: 5px;
+}
