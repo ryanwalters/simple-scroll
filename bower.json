@@ -1,0 +1,23 @@
+{
+  "name": "simple-scroll",
+  "description": "",
+  "authors": [
+    "Ryan Walters (http://ryanwalters.co)"
+  ],
+  "homepage": "http://ryanwalters.github.io/simple-scroll",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ryanwalters/simple-scroll.git"
+  },
+  "keywords": [
+      "simple",
+      "scroll",
+      "horizontal",
+      "scrolling",
+      "plugin"
+  ],
+  "devDependencies": {
+    "jquery": ">=2",
+    "jasmine-jquery": "~2.0.3"
+  }
+}
