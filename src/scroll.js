@@ -1,5 +1,5 @@
 /*!
- * Simple Scroll - v0.1.1
+ * Simple Scroll - v0.1.2
  * http://ryanwalters.github.io/simple-scroll
  *
  * Copyright (c) 2014 Ryan Walters <shout@ryanwalters.co>
