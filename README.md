@@ -5,7 +5,11 @@ Responsive horizontal scrolling.
 ###Usage:
 
 - `bower install simple-scroll` or [download it](https://github.com/ryanwalters/simple-scroll/archive/0.1.2.zip)
-- `$('.your-items').scroll()` on a list of items styled however you want
+- `$('.your-items').scroll(options)` on a list of items styled however you want
+
+        options = {
+            speed: 400 // scroll speed in ms
+        }
 
 ###Demo:
 
