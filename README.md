@@ -4,7 +4,7 @@ Responsive horizontal scrolling.
 
 ###Usage:
 
-- `bower install simple-scroll` or [download it](https://github.com/ryanwalters/simple-scroll/archive/0.1.2.zip)
+- Include `scroll.js` and `scroll.css` (`bower install simple-scroll` or [download it](https://github.com/ryanwalters/simple-scroll/archive/0.1.2.zip))
 - `$('.your-items').scroll(options)` on a list of items styled however you want
 
         options = {
