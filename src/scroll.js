@@ -83,9 +83,9 @@
 
             /* Events */
 
-            $left.on('click', _left);
-            $right.on('click', _right);
-            $controls.on('click', function () {
+            $left.on('click.simple-scroll', _left);
+            $right.on('click.simple-scroll', _right);
+            $controls.on('click.simple-scroll', function () {
                 $left.toggleClass('disabled', (pos >= 0));
                 $right.toggleClass('disabled', (Math.abs(pos) >= width - wrapperWidth));
                 _go();
@@ -93,7 +93,7 @@
 
             /* Reset when window resizes */
 
-            $(window).on('resize', function () {
+            $(window).on('resize.simple-scroll', function () {
                 window.clearTimeout(resizeTimeout);
                 resizeTimeout = window.setTimeout(_setup, 250);
             });
